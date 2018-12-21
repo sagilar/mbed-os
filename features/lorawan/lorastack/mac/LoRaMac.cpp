@@ -65,6 +65,11 @@ using namespace mbed;
  */
 #define DOWN_LINK                                   1
 
+/*
+* Modified to calibrate chrystal in target
+*/
+#define MAX_SYS_RX_ERROR						                      100
+
 LoRaMac::LoRaMac()
     : _lora_time(),
       _lora_phy(NULL),
